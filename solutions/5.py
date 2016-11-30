@@ -8,7 +8,9 @@ by all of the numbers from 1 to 20?
 
 def solve():
     n = 1
-    for i in range(1, 10):
+    minVal = 1
+    maxVal = 20
+    for i in range(minVal, maxVal+1):
         n = lcm(n, i)
     print(n)
 
